@@ -1,0 +1,15 @@
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/bin/Debug/net7.0/LoggerService.deps.json
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/bin/Debug/net7.0/LoggerService.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/bin/Debug/net7.0/LoggerService.pdb
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/bin/Debug/net7.0/Contracts.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/bin/Debug/net7.0/Contracts.pdb
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.csproj.AssemblyReference.cache
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.AssemblyInfoInputs.cache
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.AssemblyInfo.cs
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.csproj.CoreCompileInputs.cache
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.csproj.CopyComplete
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/refint/LoggerService.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/LoggerService.pdb
+/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/Debug/net7.0/ref/LoggerService.dll

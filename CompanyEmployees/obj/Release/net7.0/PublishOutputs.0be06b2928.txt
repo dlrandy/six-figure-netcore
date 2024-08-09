@@ -1,0 +1,14 @@
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/CompanyEmployees
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/nlog.config
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/appsettings.json
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/CompanyEmployees.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/CompanyEmployees.deps.json
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/CompanyEmployees.runtimeconfig.json
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/CompanyEmployees.pdb
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/NLog.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/NLog.Extensions.Logging.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/Contracts.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/LoggerService.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/LoggerService.pdb
+/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/bin/Release/net7.0/publish/Contracts.pdb
