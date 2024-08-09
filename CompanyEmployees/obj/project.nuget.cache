@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvflObOOET5hlFQeGAxYuyndz3n05dqxrxBERMa56Xs5aT1lrpGgxDmfBPHzuyaOaJ7mO4MpJkcWK3uLyO5rkw==",
+  "dgSpecHash": "EDl/Q6CvJww6rmW6qGDfl8/Y8v6ofb12/8k35ouIriSpQQ/yGyOIOMMafiG07+Mopex75UvOqPGGpM0TYHV3+A==",
   "success": true,
-  "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/CompanyEmployees.csproj",
+  "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
     "/Users/xingjiabin/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",

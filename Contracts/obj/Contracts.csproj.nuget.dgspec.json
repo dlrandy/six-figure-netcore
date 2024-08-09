@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj": {}
+    "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj": {}
   },
   "projects": {
-    "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj": {
+    "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj",
+        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj",
+        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj",
         "packagesPath": "/Users/xingjiabin/.nuget/packages/",
-        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/obj/",
+        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xingjiabin/.nuget/NuGet/NuGet.Config"

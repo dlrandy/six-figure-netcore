@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x6krzI560SaxX75/ZW/1fW2WLzH5kYv8X8aStBOwwRNK9Pm4voOiv8nj7jmPLtcU6/M7DAY59rWAAWxexXYWIA==",
+  "dgSpecHash": "xfcOFOLJ9I9OTFDMRie1svMZDCvLVdQEnCUZcxyFTMNRaMExYzf5ePqFOCBA3WVX0Q8fPaTeEi7BD/2rkVIfUA==",
   "success": true,
-  "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/LoggerService.csproj",
+  "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/LoggerService.csproj",
   "expectedPackageFiles": [
     "/Users/xingjiabin/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4AW1Wm1cWE3DDO6APYksFaXy2csyNCq04fdOaeZhusWjn0caJh/iXHgz8DUzRgcu73mMNnLiVBfn9KjCo/M0cA==",
+  "dgSpecHash": "gwTOMGgKR0p7cq2y4fyYt5V+bo3gMNKDL2N46lVlhbBanAAMpv3PnQWu/koRk6SQWLHB9MSsdi3VzG3bmBafAg==",
   "success": true,
-  "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj",
+  "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/CompanyEmployees.csproj": {}
+    "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/CompanyEmployees.csproj": {}
   },
   "projects": {
-    "/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/CompanyEmployees.csproj": {
+    "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/CompanyEmployees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/CompanyEmployees.csproj",
+        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/CompanyEmployees.csproj",
         "projectName": "CompanyEmployees",
-        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/CompanyEmployees.csproj",
+        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/CompanyEmployees.csproj",
         "packagesPath": "/Users/xingjiabin/.nuget/packages/",
-        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/CompanyEmployees/obj/",
+        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xingjiabin/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/LoggerService.csproj": {
-                "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/LoggerService.csproj"
+              "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/LoggerService.csproj": {
+                "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/LoggerService.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj": {
+    "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj",
+        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj",
+        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj",
         "packagesPath": "/Users/xingjiabin/.nuget/packages/",
-        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/obj/",
+        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xingjiabin/.nuget/NuGet/NuGet.Config"
@@ -117,14 +117,14 @@
         }
       }
     },
-    "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/LoggerService.csproj": {
+    "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/LoggerService.csproj",
+        "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/LoggerService.csproj",
+        "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/LoggerService.csproj",
         "packagesPath": "/Users/xingjiabin/.nuget/packages/",
-        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/LoggerService/obj/",
+        "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xingjiabin/.nuget/NuGet/NuGet.Config"
@@ -139,8 +139,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj": {
-                "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/Contracts/Contracts.csproj"
+              "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj"
               }
             }
           }
