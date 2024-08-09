@@ -1,28 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{32ABD4E6-4219-47C4-8328-E96394D32E0D}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
-    <Files>
-      <File FileName="Program.cs" Line="61" Column="14" />
-      <File FileName="nlog.config" />
-      <File FileName="CompanyEmployees.csproj" />
-      <File FileName="CompanyEmployees.sln" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees" expanded="True" />
-          </Node>
+          <Node name="CompanyEmployees" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.LoggerService FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Contracts FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
