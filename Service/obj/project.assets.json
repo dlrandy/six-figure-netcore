@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "Service.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Service.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Contracts/Contracts.csproj",
+      "msbuildProject": "../Contracts/Contracts.csproj"
+    },
+    "Service.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Service.Contracts/Service.Contracts.csproj",
+      "msbuildProject": "../Service.Contracts/Service.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Contracts >= 1.0.0",
+      "Service.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/xingjiabin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Service/Service.csproj",
+      "projectName": "Service",
+      "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Service/Service.csproj",
+      "packagesPath": "/Users/xingjiabin/.nuget/packages/",
+      "outputPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Service/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/xingjiabin/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj": {
+              "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/Contracts.csproj"
+            },
+            "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Service.Contracts/Service.Contracts.csproj": {
+              "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Service.Contracts/Service.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.406/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

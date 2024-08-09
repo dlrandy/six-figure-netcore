@@ -1,18 +1,33 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{32ABD4E6-4219-47C4-8328-E96394D32E0D}|https">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContextFactory/RepositoryContextFactory.cs">
+    <Files>
+      <File FileName="../Entities/Models/Company.cs" Line="8" Column="3" />
+      <File FileName="../Entities/Models/Employeee.cs" Line="1" Column="1" />
+      <File FileName="../Repository/Class1.cs" Line="14" Column="1" />
+      <File FileName="appsettings.json" Line="14" Column="1" />
+      <File FileName="ContextFactory/RepositoryContextFactory.cs" Line="19" Column="58" />
+      <File FileName="sreadme.md" Line="36" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CompanyEmployees" expanded="True" selected="True" />
+          <Node name="CompanyEmployees" expanded="True">
+            <Node name="CompanyEmployees">
+              <Node name="ContextFactory" expanded="True">
+                <Node name="RepositoryContextFactory.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Repository" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Service FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Service.Contracts FirstBuild="True" />
   <MultiItemStartupConfigurations />
 </Properties>
