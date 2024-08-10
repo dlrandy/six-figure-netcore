@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Contracts", "..\Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "..\Service\Service.csproj", "{C8EFDC7F-4CCE-4629-AA5C-C197842AC1C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.Presentation", "..\CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj", "{8FDCAD24-817E-4113-9D7F-7AC414D2004C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "..\Shared\Shared.csproj", "{DBA2C242-9E45-4E5A-89D2-251F5375548C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C8EFDC7F-4CCE-4629-AA5C-C197842AC1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8EFDC7F-4CCE-4629-AA5C-C197842AC1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8EFDC7F-4CCE-4629-AA5C-C197842AC1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDCAD24-817E-4113-9D7F-7AC414D2004C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDCAD24-817E-4113-9D7F-7AC414D2004C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDCAD24-817E-4113-9D7F-7AC414D2004C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDCAD24-817E-4113-9D7F-7AC414D2004C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA2C242-9E45-4E5A-89D2-251F5375548C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA2C242-9E45-4E5A-89D2-251F5375548C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA2C242-9E45-4E5A-89D2-251F5375548C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA2C242-9E45-4E5A-89D2-251F5375548C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

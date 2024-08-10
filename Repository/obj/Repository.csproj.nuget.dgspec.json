@@ -25,7 +25,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/Entities.csproj": {
+                "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

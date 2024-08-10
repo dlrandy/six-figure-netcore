@@ -31,6 +31,39 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 
+controllers should only be rseponsible for handling requests, model validation, and
+returning response to the frontend or some client.
+
+keeping business logic away from controllers is a good way to keep
+them lightweight, and code more readable and maintainable.
+
+the purpose of the presentation layer is to provide the entry point to system
+so that consumers can interact with the data.
+
+we can implement presentation layer in many ways, for example creating a
+rest api, grpc, grphaql,etc.
+
+because ASP.NET core uses Dependency Injection everywhere, we need to have a
+reference to all of the projects in the solution from the main project.
+
+asp.net core has two ways to implement routing
+- convention-based routing
+        need to use app.UseRouting();app.MapControllers that add endpoints for
+        controller actions without specifyinh any routes.
+        [contrllerName]/[actionName]/[optional parameters]
+- attribute routing (recommand)
+        uses the attributes to map the routes directly to the action methods inside
+        the controllers.
+       
+the resource name in the URI should always be a noun.
+
+the hierarchy between resources should follow the convention:
+/api/principalResource/{principalId}/dependentResource
+because employees can't exist without a company
+
+
+
+
 
 
 

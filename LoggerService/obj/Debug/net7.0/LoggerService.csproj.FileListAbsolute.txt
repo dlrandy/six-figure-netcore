@@ -28,3 +28,5 @@
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/obj/Debug/net7.0/refint/LoggerService.dll
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/obj/Debug/net7.0/LoggerService.pdb
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/obj/Debug/net7.0/ref/LoggerService.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/bin/Debug/net7.0/Entities.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/LoggerService/bin/Debug/net7.0/Entities.pdb
