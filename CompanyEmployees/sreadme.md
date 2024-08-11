@@ -72,6 +72,9 @@ extract all the exception handling logic into a single centralized place,
 which makes actions cleaner, more readable, and the error handling process
 more maintainable.
 
+an application where we have to throw custom exceptions more often and
+maybe impact performance.
+
 
 
 

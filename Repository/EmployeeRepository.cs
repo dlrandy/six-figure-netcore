@@ -9,6 +9,16 @@ namespace Repository
 		public EmployeeRepository(RepositoryContext repositoryContext):base(repositoryContext)
 		{
 		}
-	}
+
+        public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges)
+        {
+            var employees = FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges);
+            return employees.OrderBy(e => e.Name).ToList();
+        }
+
+        public Employee GetEmployee(Guid companyId, Guid id, bool trackChanges) {
+            return FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges).SingleOrDefault();
+        }
+    }
 }
 
