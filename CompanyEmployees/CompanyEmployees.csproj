@@ -11,10 +11,12 @@
   <ItemGroup>
     <None Remove="Extensions\" />
     <None Remove="ContextFactory\" />
+    <None Remove="OutputFormatters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="ContextFactory\" />
+    <Folder Include="OutputFormatters\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="appsettings.Production.json" />

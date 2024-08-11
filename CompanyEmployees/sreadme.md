@@ -75,7 +75,15 @@ more maintainable.
 an application where we have to throw custom exceptions more often and
 maybe impact performance.
 
+asp.net core supports the creation of custom formatters.their purpose is
+to give us the flexibility to create our formatter for any media types
+we need to support.
 
+making the custom formatter by using :
+ - create an output formatter class that inherits the TextOutputFormatter class
+ - create an input formatter class that inherits the TextInputFormatter class
+ - add input and output classes to the InputFormatters and OuputFormatters collections
+ the same way we did for the XML formatter.
 
 
 
