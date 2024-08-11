@@ -62,6 +62,16 @@ the hierarchy between resources should follow the convention:
 because employees can't exist without a company
 
 
+a data transfer object(DTO) is an object that we use to transport data
+between the client and server applications.
+
+by using DTO, the response will stay as it was before the model changes.
+
+
+extract all the exception handling logic into a single centralized place,
+which makes actions cleaner, more readable, and the error handling process
+more maintainable.
+
 
 
 
