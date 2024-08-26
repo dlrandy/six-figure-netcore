@@ -1,30 +1,56 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{32ABD4E6-4219-47C4-8328-E96394D32E0D}|https">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Shared FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees.Presentation/Controllers/CompaniesController.cs" relfile=".Presentation/Controllers/CompaniesController.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContextFactory/RepositoryContextFactory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="../Entities/Models/Company.cs" Line="8" Column="3" />
-      <File FileName="../Entities/Models/Employeee.cs" Line="1" Column="1" />
-      <File FileName="../Repository/Class1.cs" Line="14" Column="1" />
-      <File FileName="appsettings.json" Line="14" Column="1" />
-      <File FileName="ContextFactory/RepositoryContextFactory.cs" Line="19" Column="58" />
-      <File FileName="sreadme.md" Line="36" Column="1" />
+      <File FileName="sreadme.md" Line="95" Column="1" />
+      <File FileName="MappingProfile.cs" Line="17" Column="44" />
+      <File FileName="../Shared/DataTransferObjects/CompanyDto.cs" Line="6" Column="1" />
+      <File FileName="Program.cs" Line="27" Column="32" />
+      <File FileName="../CompanyEmployees.Presentation/Controllers/CompaniesController.cs" Line="40" Column="1" />
+      <File FileName="../Repository/CompanyRepository.cs" Line="7" Column="42" />
+      <File FileName="../Service.Contracts/ICompanyService.cs" Line="10" Column="15" />
+      <File FileName="../Service/CompanyService.cs" Line="24" Column="38" />
+      <File FileName="../Contracts/ICompanyRepository.cs" Line="14" Column="1" />
+      <File FileName="../Repository/RepositoryBase.cs" Line="8" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
             <Node name="CompanyEmployees">
-              <Node name="ContextFactory" expanded="True">
-                <Node name="RepositoryContextFactory.cs" selected="True" />
-              </Node>
+              <Node name="Extensions" expanded="True" />
+              <Node name="OutputFormatters" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="CompanyEmployees.Presentation" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Contracts" expanded="True" />
+            <Node name="Entities" expanded="True">
+              <Node name="ErrorModel" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="LoggerService" expanded="True" />
             <Node name="Repository" expanded="True" />
+            <Node name="Service" expanded="True" />
+            <Node name="Service.Contracts" expanded="True" />
+            <Node name="Shared" expanded="True">
+              <Node name="DataTransferObjects" expanded="True" />
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

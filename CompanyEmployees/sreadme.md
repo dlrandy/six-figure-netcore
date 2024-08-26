@@ -85,6 +85,12 @@ making the custom formatter by using :
  - add input and output classes to the InputFormatters and OuputFormatters collections
  the same way we did for the XML formatter.
 
+ ApiController will enable the Follwoing API-specific behaviors:
+ - Attribute routing requirement
+ - Automatic http 400 responses
+ - Binding source patameter inference
+ - Multipart/form-data request inference
+ - Problem details for error status codes
 
 
 
