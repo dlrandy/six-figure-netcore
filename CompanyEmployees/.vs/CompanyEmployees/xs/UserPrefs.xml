@@ -1,50 +1,31 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{32ABD4E6-4219-47C4-8328-E96394D32E0D}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{32ABD4E6-4219-47C4-8328-E96394D32E0D}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees.Presentation/Controllers/CompaniesController.cs" relfile=".Presentation/Controllers/CompaniesController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/.Presentation/ModelBinders/ArrayModelBinder.cs" relfile=".Presentation/ModelBinders/ArrayModelBinder.cs" line="13" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CompanyEmployees.Presentation/Controllers/EmployeesController.cs">
     <Files>
-      <File FileName="sreadme.md" Line="95" Column="1" />
-      <File FileName="MappingProfile.cs" Line="17" Column="44" />
-      <File FileName="../Shared/DataTransferObjects/CompanyDto.cs" Line="6" Column="1" />
-      <File FileName="Program.cs" Line="27" Column="32" />
-      <File FileName="../CompanyEmployees.Presentation/Controllers/CompaniesController.cs" Line="40" Column="1" />
-      <File FileName="../Repository/CompanyRepository.cs" Line="7" Column="42" />
-      <File FileName="../Service.Contracts/ICompanyService.cs" Line="10" Column="15" />
-      <File FileName="../Service/CompanyService.cs" Line="24" Column="38" />
-      <File FileName="../Contracts/ICompanyRepository.cs" Line="14" Column="1" />
-      <File FileName="../Repository/RepositoryBase.cs" Line="8" Column="24" />
+      <File FileName="../Shared/DataTransferObjects/EmployeeDto.cs" Line="6" Column="76" />
+      <File FileName="MappingProfile.cs" Line="19" Column="48" />
+      <File FileName="../Service.Contracts/IEmployeeService.cs" Line="12" Column="149" />
+      <File FileName="../Service/EmployeeService.cs" Line="88" Column="12" />
+      <File FileName="../CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="18" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees">
-              <Node name="Extensions" expanded="True" />
-              <Node name="OutputFormatters" expanded="True" />
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="CompanyEmployees" expanded="True" />
             <Node name="CompanyEmployees.Presentation" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-            </Node>
-            <Node name="Contracts" expanded="True" />
-            <Node name="Entities" expanded="True">
-              <Node name="ErrorModel" expanded="True" />
-              <Node name="Exceptions" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="LoggerService" expanded="True" />
-            <Node name="Repository" expanded="True" />
-            <Node name="Service" expanded="True" />
-            <Node name="Service.Contracts" expanded="True" />
-            <Node name="Shared" expanded="True">
-              <Node name="DataTransferObjects" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="EmployeesController.cs" selected="True" />
+              </Node>
+              <Node name="ModelBinders" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -54,5 +35,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>
