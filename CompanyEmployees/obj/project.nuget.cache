@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XlJMjgU+ITBl2saJQVQSO80OVygpePI0fv4pSjMAkJNeO0jP7qUaqtaHnVH8p5MU5ntn5r5Prl+DZkpE4+3cHw==",
+  "dgSpecHash": "UFMW4lGyrFKd+koQodHDSZf1gAlFnfZB23AAYYRGW8ozrlqM+Ra+kh2Q69+0aDyO5v6UyVHTL6n9/noC0jWLVw==",
   "success": true,
   "projectFilePath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -23,8 +23,10 @@
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/7.0.20/microsoft.aspnetcore.identity.entityframeworkcore.7.0.20.nupkg.sha512",
+    "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.20/microsoft.aspnetcore.jsonpatch.7.0.20.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.mvc.core/2.2.5/microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
+    "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.20/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.20.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.responsecaching.abstractions/2.2.0/microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.routing/2.2.0/microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
@@ -67,6 +69,8 @@
     "/Users/xingjiabin/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/xingjiabin/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/xingjiabin/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/nlog/5.3.2/nlog.5.3.2.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/nlog.extensions.logging/5.3.11/nlog.extensions.logging.5.3.11.nupkg.sha512",
     "/Users/xingjiabin/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",

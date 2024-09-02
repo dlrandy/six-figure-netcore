@@ -316,6 +316,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.20"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
       "Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -771,6 +784,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
     "Shared/1.0.0": {
       "type": "project",
       "path": "../Shared/Shared.csproj",
@@ -779,6 +797,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Entities >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.20",
       "Shared >= 1.0.0"
     ]
@@ -808,6 +827,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/Entities.csproj": {
+              "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/Entities.csproj"
+            },
             "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Shared/Shared.csproj": {
               "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Shared/Shared.csproj"
             }

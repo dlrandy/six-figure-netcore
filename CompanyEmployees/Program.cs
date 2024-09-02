@@ -2,6 +2,8 @@
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Options;
 using NLog;
 
 
@@ -12,7 +14,17 @@ LogManager.Setup()
 //LogManager.Configuration = new NLog.Config.XmlLoggingConfiguration(
 //    "nlog.config");
 
+
+NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
+    new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
+    .Services.BuildServiceProvider().GetRequiredService<IOptions<MvcOptions>>()
+    .Value.InputFormatters.OfType<NewtonsoftJsonPatchInputFormatter>().First();
+
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 
 
@@ -39,6 +51,7 @@ builder.Services.ConfigureJWT(builder.Configuration);
 builder.Services.AddControllers(config =>{
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
+    config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 })
   .AddXmlDataContractSerializerFormatters()
   .AddCustomCSVFormatter()

@@ -1,4 +1,5 @@
 ﻿using System;
+using Entities.Models;
 using Shared.DataTransferObjects;
 
 namespace Service.Contracts
@@ -10,6 +11,9 @@ namespace Service.Contracts
 		EmployeeDto CreateEmployeeForCompany(Guid companyId, EmployeeForCreationDto employeeForCreation, bool trackChanges);
 		void DeleteEmployeeForCompany(Guid companyId, Guid id, bool trackChanges);
 		void UpdateEmployeeForCompany(Guid companyId, Guid id, EmployeeForUpdateDto employeeForUpdate, bool companyTrackChanges, bool employeeTrackChanges);
+		(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity) GetEmployeeForPatch(
+			Guid companyId, Guid id, bool compTrackChanges, bool empTrackChanges);
+		void SaveChangesForPatch(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity);
 	}
 }
 
