@@ -30,6 +30,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 
+Add-Migration CreatingIdentityTables
+Update-Database
 
 controllers should only be rseponsible for handling requests, model validation, and
 returning response to the frontend or some client.

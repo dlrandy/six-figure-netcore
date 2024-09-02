@@ -16,4 +16,7 @@
     <Folder Include="ErrorModel\" />
     <Folder Include="Exceptions\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
+  </ItemGroup>
 </Project>

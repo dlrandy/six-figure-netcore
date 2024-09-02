@@ -30,6 +30,9 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.Configure<ApiBehaviorOptions>(options => {
     options.SuppressModelStateInvalidFilter = true;
 });
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
 //----->
 
 //builder.Services.AddControllers();
@@ -77,6 +80,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions() {
 });
 app.UseCors("CorsPolicy");
 //----->
+app.UseAuthentication();
 app.UseAuthorization();
 
 //<-----

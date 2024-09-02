@@ -9,3 +9,4 @@
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/obj/Debug/net7.0/refint/Entities.dll
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/obj/Debug/net7.0/Entities.pdb
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/obj/Debug/net7.0/ref/Entities.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache
