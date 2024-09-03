@@ -15,13 +15,12 @@ LogManager.Setup()
 //    "nlog.config");
 
 
-NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
-    new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
+NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
+{
+    return new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
     .Services.BuildServiceProvider().GetRequiredService<IOptions<MvcOptions>>()
     .Value.InputFormatters.OfType<NewtonsoftJsonPatchInputFormatter>().First();
-
-
-
+}
 
 var builder = WebApplication.CreateBuilder(args);
 
