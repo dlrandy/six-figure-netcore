@@ -67,7 +67,9 @@ namespace CompanyEmployees.Extensions
                     builder
                         .AllowAnyOrigin() // WithOrigins("https://example.com")
                         .AllowAnyMethod() // WithMethods("POST","GET")
-                        .AllowAnyHeader()); // WithHeaders("accept","content-type")
+                        .AllowAnyHeader() // WithHeaders("accept","content-type")
+                        .WithExposedHeaders(new string[] { "X-Pagination" })
+                        );
            });
 
         public static void ConfigureIISIntegration(this IServiceCollection services) =>

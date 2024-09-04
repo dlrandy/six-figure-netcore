@@ -15,3 +15,5 @@
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Repository/obj/Debug/net7.0/ref/Repository.dll
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Repository/bin/Debug/net7.0/Contracts.dll
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Repository/bin/Debug/net7.0/Contracts.pdb
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Repository/bin/Debug/net7.0/Shared.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Repository/bin/Debug/net7.0/Shared.pdb

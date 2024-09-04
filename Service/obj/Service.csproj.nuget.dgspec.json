@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/Entities.csproj": {
                 "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Entities/Entities.csproj"
+              },
+              "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Shared/Shared.csproj": {
+                "projectPath": "/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Shared/Shared.csproj"
               }
             }
           }

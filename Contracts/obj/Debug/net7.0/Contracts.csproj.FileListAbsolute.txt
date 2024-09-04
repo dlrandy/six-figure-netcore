@@ -24,3 +24,5 @@
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/bin/Debug/net7.0/Entities.pdb
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/obj/Debug/net7.0/Contracts.csproj.AssemblyReference.cache
 /Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/obj/Debug/net7.0/Contracts.csproj.CopyComplete
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/bin/Debug/net7.0/Shared.dll
+/Users/xingjiabin/Documents/dev_env/six-figure/six-figure-netcore/Contracts/bin/Debug/net7.0/Shared.pdb
