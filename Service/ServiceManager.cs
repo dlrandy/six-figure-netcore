@@ -5,6 +5,7 @@ using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Service.Contracts;
+using Shared.DataTransferObjects;
 
 namespace Service
 {
@@ -15,10 +16,10 @@ namespace Service
 		private readonly Lazy<IAuthenticationService> _authenticationService;
 
         public ServiceManager(IRepositoryManager repositoryManager,ILoggerManager logger, IMapper mapper,
-			UserManager<User> userManager,IConfiguration configuration)
+			UserManager<User> userManager,IConfiguration configuration,IDataShaper<EmployeeDto> dataShaper)
 		{
 			_companyService = new Lazy<ICompanyService>(()=> new CompanyService(repositoryManager,logger, mapper));
-			_employeeService = new Lazy<IEmployeeService>(()=> new EmployeeService(repositoryManager, logger, mapper));
+			_employeeService = new Lazy<IEmployeeService>(()=> new EmployeeService(repositoryManager, logger, mapper, dataShaper));
             _authenticationService = new Lazy<IAuthenticationService>(()=> new AuthenticationService(logger, mapper, userManager, configuration));
 		}
 

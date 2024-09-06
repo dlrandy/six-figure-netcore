@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using NLog;
-
+using Service.DataShaping;
+using Shared.DataTransferObjects;
 
 LogManager.Setup()
     .LoadConfigurationFromFile(
@@ -49,6 +50,7 @@ builder.Services.ConfigureJWT(builder.Configuration);
 
 
 builder.Services.AddScoped<ValidationFilterAttribute>();
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
 //builder.Services.AddControllers();
 builder.Services.AddControllers(config =>{

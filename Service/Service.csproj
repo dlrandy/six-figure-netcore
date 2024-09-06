@@ -15,4 +15,10 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.7.1" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="DataShaping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataShaping\" />
+  </ItemGroup>
 </Project>
